@@ -1,0 +1,6 @@
+cython
+future
+pandas
+numpy 
+plotly
+dash
