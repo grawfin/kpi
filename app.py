@@ -61,7 +61,8 @@ df.drop(unknown, inplace=True)
 for elt in df['library_category'].unique():
     labels.append(elt)
 
-app = dash.Dash()
+app = dash.Dash(__name__)
+server = app.server
 
 app.layout = html.Div(children=[
 
