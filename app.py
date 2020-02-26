@@ -17,9 +17,9 @@ labels = []
 year_month = []
 colors = ['#6A0101','#b60b06','#FAA8A8','#CDCDCD','#ABDFE9','#0B8DA6','#0B48A6']
 
-df = pd.read_csv('./data_csvs/new_order_data.csv')
+df = pd.read_csv('new_order_data.csv')
 
-run_df = pd.read_csv('./data_csvs/ManGO_KPI_runs_20200221.csv')
+run_df = pd.read_csv('ManGO_KPI_runs_20200221.csv')
 
 months_dict = {1:'Jan',
                2:'Feb',
